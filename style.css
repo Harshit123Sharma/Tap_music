@@ -1,0 +1,67 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Indie Flower', cursive;
+    font-size: 80px;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    background-color: #1b1b1b;
+}
+
+.app {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 50px 0px 30px 0px;
+    text-align: center;
+    background-color: #ffffff;
+}
+header p {
+    background-color: #ffffff;
+}
+
+.tones {
+    background: lightblue;
+    width: 100%;
+    display: flex;
+
+}
+
+.tones > div {
+    height: 100px;
+    width: 100px;
+    flex: 1;
+}
+
+.tone1 {
+    background: #ADFF2F;
+}
+
+.tone2 {
+    background: #F7BB57;
+}
+
+.tone3 {
+    background: #E05A77;
+}
+
+.tone4 {
+    background: #6757F7;
+}
+
+.tone5 {
+    background: #53EDCF;
+}
+
+.tone6 {
+    background: #DBF023;
+}
